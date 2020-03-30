@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 Route::get('products/displaygrid', 'productController@displaygrid')->name('products.displaygrid');
 
+Route::get('products/additem/{id}', 'productController@additem')->name('products.additem');
 //Route::resource('scorders', 'scorderController');
 
 //Route::resource('products', 'productController');
